@@ -44,3 +44,5 @@ def crack(cipher_text):
         shifted_text_list = shifted_text.split()
         if test_shift(shifted_text_list):
             return shifted_text
+
+    return ''

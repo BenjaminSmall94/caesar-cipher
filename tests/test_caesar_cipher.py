@@ -37,7 +37,6 @@ def test_decrypt():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
 def test_crack_8():
     expected = "It was the best of times, it was the worst of times."
     encrypted = encrypt(expected, 8)
@@ -45,7 +44,6 @@ def test_crack_8():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
 def test_crack_28():
     expected = "It was the best of times, it was the worst of times."
     encrypted = encrypt(expected, 28)
@@ -98,7 +96,6 @@ def test_round_trip():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
 def test_crack_phrase():
     phrase = "It was the best of times, it was the worst of times."
     encrypted = encrypt(phrase, 10)
@@ -107,7 +104,6 @@ def test_crack_phrase():
     assert actual == expected
 
 
-@pytest.mark.skip("TODO")
 def test_crack_nonsense():
     phrase = "Ix fhw txe fofg of ndhrl, it nad tho hndrk of allkd."
     encrypted = encrypt(phrase, 10)
